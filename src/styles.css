@@ -15,6 +15,7 @@ div {
 
 div li {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -31,6 +32,23 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+}
+
+form {
+  padding: 10px 0;
+}
+
+input {
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+ul {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 700px;
 }
 
 div li button {
